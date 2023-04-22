@@ -1,0 +1,22 @@
+disp macro char
+mov ah,02h
+mov dl,char
+int 21h
+endm
+.model small
+.stack 100
+.code
+mov al,'A'
+mov cl,26
+print: disp Al
+inc al
+loop print
+mov ah,4ch
+int 21h
+end
+
+
+OUTPUT:
+
+C:/TASM>ABC.exe
+ABCDEFGHIJKLMNOPQRSTUVWXYZ

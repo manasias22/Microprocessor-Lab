@@ -1,0 +1,23 @@
+CODE:
+
+.model small
+
+.data
+a db 08h
+b db 09h
+sum db ?
+carry db 00h
+
+.code
+mov ax,@data
+mov ds,ax
+mov al,a
+mov bl,b
+add al,bl
+mov sum,al
+jnc jump
+inc carry
+jump:mov ah,4ch
+int 21h
+end
+
