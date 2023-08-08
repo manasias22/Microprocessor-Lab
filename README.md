@@ -1,14 +1,15 @@
-# Microprocessor-Lab
+# <H1>Microprocessor-Lab
 
-Prerequisite: Basic knowledge digital integrated circuits
+_**Prerequisite: Basic knowledge digital integrated circuits**_
 
-Lab Objectives:
+## <H3>Lab Objectives:
 
 1 To emphasize on use of Assembly language program.
 
 2 To prepare students for advanced subjects like embedded system and IOT.
 
-Lab Outcomes: At the end of the course, the students will be able to
+## <H3>Lab Outcomes: 
+At the end of the course, the students will be able to
 
 1 Use appropriate instructions to program microprocessor to perform various task
 
